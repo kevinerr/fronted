@@ -1,0 +1,337 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ol,ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+	color: #000;
+}
+img{
+	border: none;
+	display: block;
+}
+html body{
+	min-width: 1200px;
+}
+#banner{
+	width: 100%;
+	height: 1184px;
+	position: relative;
+}
+.navBgp{
+	top: 145px;
+	width: 100%;
+	height: 104px;
+    background-image: url("../images/navBgp.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.bannerBgp{
+	top: 0px;
+	width: 100%;
+	height: 673px;
+    background-image: url("../images/CultureBanner1.png");
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+#nav{
+/*	top: -370px;*/
+	top: 145px;
+	width: 100%;
+	height: 171px;
+	position: relative;
+}
+
+.navScript{
+	top: 20px;
+	left: 24.83%;
+	width: 700px;
+	height: 200px;
+	position: absolute;
+	display: inline-block;
+}
+.navScript ul {
+	width: 100%;
+	list-style: none;/* 取消ul标签的小圆点  */
+}
+.navScript li {
+	width: 9.7%;
+	float: left; /*左浮动*/
+}
+.navScript li a {
+	text-decoration: none; /*a标签的下划线*/
+	color: #000000;
+	text-align: center; /*文本居中*/
+	line-height: 40px; /*行高*/
+
+}
+.navScript li ul {
+	transition:1s;
+	transform:rotateY(-90deg);
+	/*-webkit-transform:rotateY(-90deg);*/  /*通过 rotateY() 方法，
+	         元素围绕其 Y 轴以给定的度数进行旋转*/
+}
+.navScript li li {
+	margin-left: -29%;
+	width: 150%;
+	float: none;  /*取消浮动*/
+}
+
+.navScript li:hover ul {
+	display: block;
+	transform:rotateY(0deg);
+	/*-webkit-transform:rotateY(0deg);*/
+}
+@media  screen and (max-width: 1500px) {
+			.bannerBgp{
+				width: 1200px;
+			}
+			.navBgp{
+				width: 1200px;
+			}
+			.navScript{
+				left: 24.83%;
+			}
+
+		}
+@media  screen and (min-width: 1500px){
+			.bannerBgp{
+				width: 100%;
+			}
+			.navBgp{
+				width: 100%;
+			}
+			.navScript{
+				left: 32%;
+			}
+		}
+
+.homePageClick{
+	display: none;
+}
+.cultureClick{
+	display: none;
+}
+
+.creativeClick{
+	display: none;
+}
+
+.coordinateClick{
+	display: none;
+}
+
+.greenClick{
+	display: none;
+}
+
+.openClick{
+	display: none;
+}
+
+.shareClick{
+	display: none;
+}
+
+.weClick{
+	display: none;
+}
+
+.languageClick{
+	display: none;
+}
+.bgmOpen{
+	top: 108px;
+	width: 63px;
+	height: 63px;
+    background-image: url("../images/bgmOpen.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20%;
+    display: none;
+}
+#demo{
+	display: none;
+}
+.bgmClose{
+	top: 108px;
+	width: 63px;
+	height: 63px;
+    background-image: url("../images/bgmClose.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20%;
+    
+}
+.up{
+	top: 253px;
+	width: 63px;
+	height: 63px;
+    background-image: url("../images/up.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10%;
+}
+#head{
+	top: 180px;
+	width: 100%;
+	height: 104px;
+    position: relative;
+}
+.GreenHeadTextCircle{
+	left: 42%;
+	width: 226px;
+	height: 100px;
+    background-image: url("../images/CultureHeadTextCircle.png");
+    background-repeat: no-repeat;
+    position: absolute;
+
+}
+.OpenHeadText{
+	top: 30px;
+	left: 67px;
+	width: 226px;
+	height: 100px;
+    background-image: url("../images/OpenHeadText.png");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#openPart1{
+	top: 144px;
+	width: 703px;
+	height: 880px;
+	position: relative;
+	margin: 0px auto;
+}
+@media  screen and (max-width: 1500px) {
+			.GreenHeadTextCircle{
+				left: 40%;
+			}
+			#openPart1{
+				left: 3%;
+			}
+
+		}
+@media  screen and (min-width: 1500px){
+			.GreenHeadTextCircle{
+				left: 43%;
+			}
+			#openPart1{
+				left: 3%;
+			}
+
+		}
+.openPart1Image{
+	top: 20px;
+	left: -37px;
+	width: 167px;
+	height: 67px;
+    background-image: url("../images/openxiaoPart1Image.png");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.openPart1Text{
+	width: 624px;
+	height: 750px;
+    position: absolute;
+}
+.openPart1Text1{
+	top: 113px;
+	width: 624px;
+	height: 221px;
+    position: absolute;
+}
+.openPart1Text2{
+	top: 677px;
+	width: 631px;
+	height: 357px;
+    position: absolute;
+}
+
+
+.openPart1Text1Image{
+	top: 360px;
+	width: 624px;
+	height: 280px;
+    background-image: url("../images/openxiaoPart2Text1Image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+.openPart1Text1ImageCircle{
+	left: -48px;
+	top: 333px;
+	width: 677px;
+	height: 310px;
+    background-image: url("../images/openxiaoPart1Text1ImageCircle.png");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#openPart2{
+	top: 193px;
+	width: 703px;
+	height: 450px;
+	position: relative;
+	margin: 0px auto;
+}
+.openPart2Image{
+	left: -37px;
+	width: 167px;
+	height: 67px;
+    background-image: url("../images/openPart2Image.png");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.openPart2MainText{
+	top: 122px;
+	width: 620px;
+	height: 308px;
+    position: absolute;
+}
+
+#footer{
+	top: 1250px;
+	width: 100%;
+	height: 679px;
+	position: absolute;
+}
+.footerCloud{
+	width: 100%;
+	height: 679px;
+    background-image: url("../images/footerCloud2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+@media  screen and (max-width: 1500px) {
+			#footer{
+				top: 1250px;
+				width: 1200px;
+				height: 679px;
+				position: absolute;
+			}
+		}
+@media  screen and (min-width: 1500px){
+			#footer{
+				top: 1250px;
+				width: 100%;
+				height: 679px;
+				position: absolute;
+			}
+		}
+/*.copyright{
+	top: 185px;
+	left: 35%;
+	width: 398px;
+	height: 26px;
+    background-image: url("../images/copyright.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}*/

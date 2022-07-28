@@ -1,0 +1,335 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ol,ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	display: block;
+	color: #000;
+}
+img{
+	border: none;
+	display: block;
+}
+html body{
+	min-width: 1200px;
+}
+.public-container{
+    position: relative;
+    margin: 0 auto;
+    width: 1220px;
+}
+#banner{
+	width: 100%;
+	height: 1184px;
+	position: relative;
+}
+.navBgp{
+	top: 145px;
+	width: 100%;
+	height: 104px;
+    background-image: url("../images/navBgp.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.bannerBgp{
+	top: 0px;
+	width: 100%;
+	height: 673px;
+    background-image: url("../images/CultureBanner1.png");
+    background-size: 100% 100%;
+    position: absolute;
+}
+
+#nav{
+/*	top: -370px;*/
+	top: 145px;
+	width: 100%;
+	height: 171px;
+	position: relative;
+}
+
+.navScript{
+	top: 20px;
+	left: 24.83%;
+	width: 700px;
+	height: 200px;
+	position: absolute;
+	display: inline-block;
+}
+.navScript ul {
+	width: 100%;
+	list-style: none;/* 取消ul标签的小圆点  */
+}
+.navScript li {
+	width: 9.7%;
+	float: left; /*左浮动*/
+}
+.navScript li a {
+	text-decoration: none; /*a标签的下划线*/
+	color: #000000;
+	text-align: center; /*文本居中*/
+	line-height: 40px; /*行高*/
+
+}
+.navScript li ul {
+	transition:1s;
+	transform:rotateY(-90deg);
+	/*-webkit-transform:rotateY(-90deg);*/  /*通过 rotateY() 方法，
+	         元素围绕其 Y 轴以给定的度数进行旋转*/
+}
+.navScript li li {
+	margin-left: -29%;
+	width: 150%;
+	float: none;  /*取消浮动*/
+}
+
+.navScript li:hover ul {
+	display: block;
+	transform:rotateY(0deg);
+	/*-webkit-transform:rotateY(0deg);*/
+}
+@media  screen and (max-width: 1500px) {
+			.bannerBgp{
+				width: 1200px;
+			}
+			.navBgp{
+				width: 1200px;
+			}
+			.navScript{
+				left: 24.83%;
+			}
+
+		}
+@media  screen and (min-width: 1500px){
+			.bannerBgp{
+				width: 100%;
+			}
+			.navBgp{
+				width: 100%;
+			}
+			.navScript{
+				left: 32%;
+			}
+		}
+
+.homePageClick{
+	display: none;
+}
+.cultureClick{
+	display: none;
+}
+
+.creativeClick{
+	display: none;
+}
+
+.coordinateClick{
+	display: none;
+}
+
+.greenClick{
+	display: none;
+}
+
+.openClick{
+	display: none;
+}
+
+.shareClick{
+	display: none;
+}
+
+.weClick{
+	display: none;
+}
+
+.languageClick{
+	display: none;
+}
+.bgmOpen{
+	top: 108px;
+	width: 63px;
+	height: 63px;
+    background-image: url("../images/bgmOpen.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20%;
+    display: none;
+}
+#demo{
+	display: none;
+}
+.bgmClose{
+	top: 108px;
+	width: 63px;
+	height: 63px;
+    background-image: url("../images/bgmClose.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 20%;
+    
+}
+.up{
+	top: 253px;
+	width: 63px;
+	height: 63px;
+    background-image: url("../images/up.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10%;
+}
+#head{
+	top: 185px;
+	width: 100%;
+	height: 221px;
+    position: relative;
+}
+.CultureHeadTextCircle{
+	left: 42%;
+	width: 226px;
+	height: 100px;
+    background-image: url("../images/CultureHeadTextCircle.png");
+    background-repeat: no-repeat;
+    position: absolute;
+
+}
+.CultureHeadText{
+	top: 34px;
+	left: 60px;
+	width: 226px;
+	height: 100px;
+    background-image: url("../images/CultureHeadText.png");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.CultureHeadImage{
+	top: 158px;
+	left: 26%;
+	width: 167px;
+	height: 67px;
+    background-image: url("../images/CulturewenHeadImage.png");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#CultureMainText{
+	top: 240px;
+	width: 626px;
+	height: 966px;
+    position: relative;
+    margin: 0px auto;
+}
+@media  screen and (max-width: 1500px) {
+			.CultureHeadTextCircle{
+				left: 40%;
+			}
+
+		}
+@media  screen and (min-width: 1500px){
+			.CultureHeadTextCircle{
+				left: 43%;
+			}
+
+		}
+.CultureMainText1{
+	width: 626px;
+	height: 377px;
+	position: absolute;
+}
+.CultureMainText2{
+	top: 1076px;
+	width: 626px;
+	height: 50	px;
+	position: absolute;
+}
+
+
+.CultureMainTextImg1{
+	top: 535px;
+	width: 623px;
+	height: 486px;
+    background-image: url("../images/CulturewenMainTextImg1.png");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.CultureMainTextImg1Circle{
+	left: -48px;
+	top: 485px;
+	width: 672px;
+	height: 541px;
+    background-image: url("../images/CulturewenMainTextImg1Circle.png");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.CultureMainTextImg2{
+	left: 8%;
+	top: 1040px;
+	width: 531px;
+	height: 334px;
+    background-image: url("../images/CultureMainTextImg2.png");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.CultureMainTextImg3{
+	left: 8%;
+	top: 1580px;
+	width: 540px;
+	height: 334px;
+    background-image: url("../images/CultureMainTextImg3.png");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#carousel-example-generic{
+	left: 8%;
+	top: 2143px;
+	width: 537px;
+	height: 334px;
+}
+
+.CultureMainTextImg6{
+	left: 8%;
+	top: 2700px;
+	width: 540px;
+	height: 334px;
+    background-image: url("../images/CultureMainTextImg6.png");
+    background-repeat: no-repeat;
+    position: absolute;
+}
+#CultureMainText span{
+	font-size: 20.83px;
+}
+#footer{
+	top: 1350px;
+	width: 100%;
+	height: 679px;
+	position: absolute;
+}
+.footerCloud{
+	width: 100%;
+	height: 679px;
+    background-image: url("../images/footerCloud2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+@media  screen and (max-width: 1500px) {
+			#footer{
+				top: 1350px;
+				width: 1200px;
+				height: 679px;
+				position: absolute;
+			}
+		}
+@media  screen and (min-width: 1500px){
+			#footer{
+				top: 1350px;
+				width: 100%;
+				height: 679px;
+				position: absolute;
+			}
+		}
